@@ -19,6 +19,6 @@ jobs:
             <g transform="translate({{ x }}, {{ y }})">
               <a xlink:href="{{{ url }}}" target="_blank" rel="nofollow sponsored" title="{{{ name }}}" id="{{{ name }}}">
                 <image width="{{ width }}" height="{{ height }}" xlink:href="{{{ avatar }}}" />
-                <text x="32" y="74" text-anchor="middle" alignment-baseline="middle" font-size="10">{{{ name }}}</text>
+                <text x="32" y="74" color="green" text-anchor="middle" alignment-baseline="middle" font-size="10">{{{ name }}}</text>
               </a>
             </g>
